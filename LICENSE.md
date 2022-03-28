@@ -4,7 +4,7 @@
 
 This project is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. For details see: <http://creativecommons.org/licenses/by-sa/3.0/>.
 
-The project is copyright by KU Leuven 2016-2021. For further information contact Elia Van Wolputte at elia.vanwolputte@kuleuven.be
+The project is copyright by KU Leuven 2016-2022. For further information contact Sieben Bocklandt at sieben.bocklandt@kuleuven.be
 
 ## Database
 
