@@ -1,9 +1,10 @@
 def query_01(connection, column_names, X=350):
     # Bouw je query
     query = """
-    SELECT m.nameFirst, m.nameLast, h.yearid, h.votes
+SELECT m.nameFirst, m.nameLast, h.yearid, h.votes
 FROM HallOfFame h, Master m 
-ORDER BY m.nameFirst, m.nameLast, h.yearid, h.votes;
+WHERE h.playerID=m.playerID AND h.votes> "X"
+ORDER BY m.nameFirst, m.nameLast, h.yearid, h.votes DESC
     """.format(
         X=X
     )
