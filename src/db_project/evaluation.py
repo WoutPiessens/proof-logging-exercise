@@ -40,7 +40,7 @@ def evaluate_script(
     scores_df = pd.DataFrame()
 
     # Actual comparison
-    true_dfs = extract_dfs_from_dir(sol_dir, keyword="model_solution")
+    true_dfs = extract_dfs_from_dir(sol_dir, keyword="dummy_solution")
     subm_dfs = extract_dfs_from_dir(res_dir)
 
     all_q_idx = sorted(list(set([q for (q, p, v) in true_dfs.keys()])))
